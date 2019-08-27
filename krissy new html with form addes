@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <link href="stylesheet.css" type="text/css" rel="stylesheet">
+    <link href="js.js" type="javascript" rel="javascript">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    
+    <head><title>MyCart</title></head>
+    <div class="se-pre-con"></div>
+    <header>
+        <div class="top">   
+        <ul class="navlist">
+            <li class="logo"><img src="logo.png" alt="logo" height="50px" width="50px"></li>&nbsp;&nbsp;&nbsp;&nbsp;
+            <form action="/action_page.php">
+                <input type="text" placeholder="Shop for more items.." name="search" size="190">
+                <i class="fa fa-search"></i></input></form>&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="myaccount">My Account</li>&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="dropdown">Cart<img src="cart.svg" alt="shopping cart" height="15px" width="15px">&nbsp;&nbsp;&nbsp;&nbsp;
+            </li>&emsp;&emsp;&emsp;&emsp;
+        </ul>    
+    
+            
+            
+        <ul class="nav">
+            <li>HOME & GARDEN</li><br>
+            <li>FROZEN FOOD</li><br>
+            <li>PENCILS</li><br>
+            <li>BUTTER</li><br>
+            <li>TOYS & GAMES</li><br>
+            <li>GROCERIES</li><br>
+        </ul>
+    </div>
+    </header>html {
+    font-family: Lato;
+}
+header {
+    max-width: auto;
+}
+
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 50px 0px 10px 10px;
+    box-sizing: border-box;
+    background-image: url('magnafy.svg');
+    background-position: right; 
+    background-repeat: no-repeat;
+  
+}
+
+.top {
+    background-color: #606FF6;
+    align-items: center;
+    flex-direction: row;
+    box-sizing: content-box;
+    text-align: center;
+    display: block;
+    margin: auto;
+    
+    
+}
+.myaccount {
+    margin: 50px 0px 10px 10px;
+
+
+}
+.dropdown {
+    margin: 50px 0px 10px 10px;
+    
+
+}
+
+.navlist {
+    flex-direction: row;
+    list-style-type: none;
+    display: flex;
+    max-height: 10%;
+    
+
+}
+
+.logo {
+    position: left;
+    padding: 3%;
+    padding-top: 3%;
+
+}
+.form {
+    overflow: hidden;
+    position: relative;
+
+}
+
+
+
+.nav {
+    
+    background-color: black;
+    color: #F7EDE2;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 1%;
+    flex-direction: row;
+    font-size: 150%;
+    
+
+    
+}
+
+.newspaper {
+    -webkit-column-count: 4; /* Old Chrome, Safari and Opera */
+  -moz-column-count: 4; /* Old Firefox */
+  column-count: 4;
+  }
+        
+       
+   
