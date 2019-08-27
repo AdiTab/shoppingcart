@@ -1,69 +1,47 @@
 html {
-    font-family: Lato;
+    font: Lato;
 }
 header {
-    max-width: auto;
-}
-
-
-input[type=text] {
-    width: 50%;
-    padding: 12px 20px;
-    margin: 50px 0px 10px 10px;
-    box-sizing: border-box;
-    background-image: url('magnafy.svg');
-    background-position: right; 
-    background-repeat: no-repeat;
-  
-}
-
-.top {
-    background-color: #606FF6;
-    align-items: center;
-    flex-direction: row;
-    box-sizing: content-box;
+    max-height: 15%;
+    max-width: 100%;
     text-align: center;
-    display: block;
-    margin: auto;
-    
-    
-}
-.myaccount {
-    margin: 50px 0px 10px 10px;
-
-
-}
-.dropdown {
-    margin: 50px 0px 10px 10px;
-    
-
-}
-
-.navlist {
-    flex-direction: row;
-    list-style-type: none;
+    background-color: #C9DCEC;
+    overflow: auto;
+    align-content: justify;
     display: flex;
-    max-height: 10%;
-    
+    justify-content: space-between;
 
+}
+
+h1 {
+    font: Lato;
+    text-align: center;
+    font-size: 40px;
+}
+
+h4 {
+    font: Lato;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 10%;
 }
 
 .logo {
-    position: left;
-    padding: 3%;
-    padding-top: 3%;
-
-}
-.form {
-    overflow: hidden;
-    position: relative;
-
-}
-
-
-
-.nav {
+    display: flex;
+    left: 30px;
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    align-content: flex-start;
     
+}
+
+.navbar {
+    height: 80px;
+
+
+}
+.nav {
     background-color: black;
     color: #F7EDE2;
     display: flex;
@@ -81,4 +59,24 @@ input[type=text] {
     -webkit-column-count: 4; /* Old Chrome, Safari and Opera */
   -moz-column-count: 4; /* Old Firefox */
   column-count: 4;
-  }
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.littlebox {
+    border: 2px solid #EB68A6;
+    border-radius: 5px;
+    display: inline-grid;
+    width: 180px;
+    height: 220px;
+    padding: 25px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    justify-content: center;
+
+}
+
+button {
+    width: 40px;
+    height: 25px;
+}
