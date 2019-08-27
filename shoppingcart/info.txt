@@ -1,0 +1,38 @@
+Font: Lato
+
+FontIcons: Fontawesome
+
+Colors:
+#606FF6
+#F7EDE2
+#F6BD60
+#191919
+#C9DCEC
+#EB68A6
+
+All items must be stored in Javascript, not in the HTML DOM. Later on, items will be loaded from a URL in JSON format
+
+A loading spinner should be shown until all items have been loaded.
+
+Out of stock items should not be able to be added to the cart
+
+For now, we can prefill with Frozen Chicken Breasts.
+
+Work in pairs.
+
+Javascript things you will need to use:
+	DOM Manipulation.
+		getElementById
+		getElementsByClassName 
+		.innerHTML
+		.onClick
+	Arrays
+	AJAX
+	Promises
+
+
+You will be graded on this, on how closely you match the design, and your code quality.
+
+No buttons need functionality other than Add, and clicking the cart button should show the cart dropdown.
+
+All assets should be provided, if any are missing, suitable replacements will suffice.
