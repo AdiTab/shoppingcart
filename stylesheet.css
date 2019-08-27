@@ -1,0 +1,82 @@
+html {
+    font: Lato;
+}
+header {
+    max-height: 15%;
+    max-width: 100%;
+    text-align: center;
+    background-color: #C9DCEC;
+    overflow: auto;
+    align-content: justify;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h1 {
+    font: Lato;
+    text-align: center;
+    font-size: 40px;
+}
+
+h4 {
+    font: Lato;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.logo {
+    display: flex;
+    left: 30px;
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    align-content: flex-start;
+    
+}
+
+.navbar {
+    height: 80px;
+
+
+}
+.nav {
+    background-color: black;
+    color: #F7EDE2;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 1%;
+    flex-direction: row;
+    font-size: 150%;
+    
+
+    
+}
+
+.newspaper {
+    -webkit-column-count: 4; /* Old Chrome, Safari and Opera */
+  -moz-column-count: 4; /* Old Firefox */
+  column-count: 4;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.littlebox {
+    border: 2px solid #EB68A6;
+    border-radius: 5px;
+    display: inline-grid;
+    width: 180px;
+    height: 220px;
+    padding: 25px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    justify-content: center;
+
+}
+
+button {
+    width: 40px;
+    height: 25px;
+}
