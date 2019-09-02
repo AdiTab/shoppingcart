@@ -2,44 +2,60 @@ html {
     font: Lato;
 }
 header {
-    max-height: 15%;
-    max-width: 100%;
-    text-align: center;
-    background-color: #C9DCEC;
-    overflow: auto;
-    align-content: justify;
-    display: flex;
-    justify-content: space-between;
-
+    max-width: auto;
+    margin-top: -2%;  
+}    
+input[type=text] {
+    width: 50%;
+    height: 15%;
+    padding: 12px 20px;
+    margin: 50px 0px 10px 10px;
+    box-sizing: border-box;
+    background-image: url('magnafy.svg');
+    background-position: right; 
+    background-repeat: no-repeat;
 }
-
+.top {
+    background-color: #C9DCEC;
+    align-items: center;
+    flex-direction: row;
+    box-sizing: content-box;
+    text-align: center;
+    display: block;     
+}
+.myaccount {
+    margin: 50px 0px 10px 10px;
+}
+.dropdown {
+    margin: 50px 0px 10px 10px;
+}
+.navlist {
+    flex-direction: row;
+    list-style-type: none;
+    display: flex;
+    max-height: 5%;
+    height: 5%;
+    max-height: 80px;    
+}
+.logo {
+    position: left;
+    padding: 3%;
+    padding-top: 3%; 
+}
+.form {
+    overflow: hidden;
+    position: relative;
+}  
 h1 {
     font: Lato;
     text-align: center;
     font-size: 40px;
 }
-
 h4 {
     font: Lato;
     font-size: 30px;
     text-align: left;
     margin-left: 10%;
-}
-
-.logo {
-    display: flex;
-    left: 30px;
-    width: 80px;
-    height: 80px;
-    padding: 20px;
-    align-content: flex-start;
-    
-}
-
-.navbar {
-    height: 80px;
-
-
 }
 .nav {
     background-color: black;
@@ -49,12 +65,8 @@ h4 {
     list-style-type: none;
     padding: 1%;
     flex-direction: row;
-    font-size: 150%;
-    
-
-    
+    font-size: 150%;    
 }
-
 .newspaper {
     -webkit-column-count: 4; /* Old Chrome, Safari and Opera */
   -moz-column-count: 4; /* Old Firefox */
@@ -62,21 +74,36 @@ h4 {
   margin-left: 10%;
   margin-right: 10%;
 }
-
-.littlebox {
+.littleboxes {
     border: 2px solid #EB68A6;
     border-radius: 5px;
-    display: inline-grid;
-    width: 180px;
-    height: 220px;
-    padding: 25px;
-    margin-bottom: 20px;
+    display: block;
+    height: 280px;
+    width: 200px;
+    padding-left: 40px;
+    margin-bottom: 50px;
     margin-left: 5%;
-    justify-content: center;
-
 }
 
+.littleboxes #imgage {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: -15px;
+}
 button {
-    width: 40px;
+    width: 50px;
+    height: 30px;
+    border: #606FF6 solid;
+    background-color: #606FF6;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 2%;
+}
+input {
+    width: 100px;
     height: 25px;
+    margin-right: 10px;
+    border: 1px solid;
+    border-color: black;
 }
